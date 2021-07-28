@@ -1,5 +1,5 @@
 from wines.models import Wine
-from rest_framework import serializers, viewsets, permissions
+from rest_framework import viewsets, permissions
 from .serializers import WineSerializer
 
 # Wine Viewset
@@ -15,4 +15,4 @@ class WineViewSet(viewsets.ModelViewSet):
         return self.request.user.wines.all()
 
     def perform_create(self, serializer):
-        serializers.save(owner=self.request.user)
+        serializer.save(owner=self.request.user)
