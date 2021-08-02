@@ -1,17 +1,13 @@
-<!-- https://i.imgur.com/jabZg7z.png -->
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Avisa-GA/persian-food-recipe-backend">
+  <a href="https://github.com/Joshua-Zalcman/my-vine-list-backend">
     <img src="https://i.imgur.com/jabZg7z.png " >
   </a>
 
-  <h2 align="center">Persian Recipe Foods (Backend)</h2>
+  <h2 align="center">My Vine List (Backend)</h2>
 <br>
 <Br>
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -33,24 +29,27 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+
 # **About The Project**
-The Persian Recipe Food App is built with Rails on the backend and serves JSON API with full CRUD operations on the food model.  
+
+My vine list is built with Django + rest_framework on the backend and perfomrs full CRUD operations on the wine model and user model. The app serves JSON API to the frontend and uses token based authentication for logins/CRUD/protecting routes.
 
 The live version of this app can be viewed [here.](https://cocky-aryabhata-964b73.netlify.app/)
 
 The frontend GitHub can be found [here.](https://github.com/Avisa-GA/persian-food-recipe-frontend)
 
 # **Built With**
-* [Heroku](https://dashboard.heroku.com/apps)
-* [Ruby on Rails](https://rubyonrails.org/)
 
+- [Django](https://docs.djangoproject.com/en/3.2/)
+- [REST Framework](https://www.django-rest-framework.org/)
 
 # **ERD**
-![Food ERD](https://i.imgur.com/Wg6YGeE.png)
 
-
+![My Vine List ERD](https://i.imgur.com/Wg6YGeE.png)
 
 # **Future Enhancements**
-* Ability for users to add a recipe review
-* Ability for users to search recipes by tag/name
-* Ability for users to upload their own image through cloudinary
+
+- New drinks model
+- Enable users to interact and send messages
+- Enhance token authentication by bringing in 3rd party library
+- Add user profile images
