@@ -1,10 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Joshua-Zalcman/my-vine-list-backend">
-    <img src="https://i.imgur.com/jabZg7z.png " >
-  </a>
-
   <h2 align="center">My Vine List (Backend)</h2>
 <br>
 <Br>
@@ -36,7 +32,7 @@ My vine list is built with Django + rest_framework on the backend and perfomrs f
 
 The live version of this app can be viewed [here.](https://cocky-aryabhata-964b73.netlify.app/)
 
-The frontend GitHub can be found [here.](https://github.com/Avisa-GA/persian-food-recipe-frontend)
+The frontend GitHub can be found [here.](https://github.com/Joshua-Zalcman/my-vine-list-frontend)
 
 # **Built With**
 
@@ -45,7 +41,7 @@ The frontend GitHub can be found [here.](https://github.com/Avisa-GA/persian-foo
 
 # **ERD**
 
-![My Vine List ERD](https://i.imgur.com/Wg6YGeE.png)
+![My Vine List ERD](./img/erd.png)
 
 # **Future Enhancements**
 
