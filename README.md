@@ -30,7 +30,7 @@
 
 My vine list is built with Django + rest_framework on the backend and perfomrs full CRUD operations on the wine model and user model. The app serves JSON API to the frontend and uses token based authentication for logins/CRUD/protecting routes.
 
-The live version of this app can be viewed [here.](https://cocky-aryabhata-964b73.netlify.app/)
+The live version of this app can be viewed [here.](https://my-vine-list-backend.herokuapp.com/)
 
 The frontend GitHub can be found [here.](https://github.com/Joshua-Zalcman/my-vine-list-frontend)
 
